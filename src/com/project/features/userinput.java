@@ -47,7 +47,8 @@ public static void welcomescreen() {
 		
 		System.out.println();
 		int x=sc.nextInt();
-		
+	
+
 			switch(x) {
 			case 1:
 					display();
@@ -59,11 +60,17 @@ public static void welcomescreen() {
 				break;
 				
 			default:
+				//quit1=true;
 			    	System.out.println("Error You have Entered Wrong Option");
+			    	
+			    	userip();
 			    	break;
 				
 			}
 		
+		
+	
+			
 			
 	
 			
